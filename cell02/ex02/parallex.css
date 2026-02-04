@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-1 {
+    background-image: url("https://i.ytimg.com/vi/KMckZjMEhFU/maxresdefault.jpg");
+}
+
+.parallax-2 {
+    background-image: url("https://blog.bangkokair.com/wp-content/uploads/2024/04/phuket-scaled.jpeg");
+}
+
+/* --- THE BLACK BLOCK --- */
+.static-block {
+    color: white;
+    
+    /* Center the text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Styling the text box inside the images to make it readable */
+.message-box {
+    background-color: rgba(255, 255, 255, 0.8); /* White with some transparency */
+    color: black;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.content {
+    max-width: 600px;
+    padding: 20px;
+}
